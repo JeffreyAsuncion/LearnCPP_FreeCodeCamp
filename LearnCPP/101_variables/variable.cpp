@@ -3,10 +3,14 @@ using namespace std;
 
 int main()
 {
-    cout << "There once was a man named John" << endl;
-    cout << "He was 70 years old" << endl;
-    cout << "He liked the name John" << endl;
-    cout << "But did not liek being 70" << endl;
+    string characterName = "John";
+    int characterAge;
+    characterAge = 35;
+
+    cout << "There once was a man named " << characterName << endl;
+    cout << "He was " << characterAge  << " years old" << endl;
+    cout << "He liked the name " << characterName << endl;
+    cout << "But did not like being " << characterAge << endl;
 
     return 0;
 }
