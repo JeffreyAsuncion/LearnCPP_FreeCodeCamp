@@ -73,6 +73,9 @@ int main()
     cout << fmax(3, 10) << endl;
 
 
+    // fmin(num1, num2)
+    cout << fmin(3, 10) << endl;
+
     cout << "\n\n\n" << endl;
 
     return 0;
